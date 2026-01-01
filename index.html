@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tomires</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="information.svg" />
+            <h1>The page has not been thought out</h1>
+        </header>
+
+        The page you are looking for has not been implemented due to author's lack of time and/or general laziness.
+
+        <hr />
+
+        Please try the following:
+
+        <ul>
+            <li>Contact the author at <a href="mailto:me(at)tomires.eu"><img src="envelope.ico" />me(⅋)tomires.eu</a>.</li>
+            <li>Find them over on <a href="https://www.linkedin.com/in/tomires" target="_blank"><img src="business-dude.ico" />LinkedIn</a> or <a href="https://www.github.com/tomires" target="_blank"><img src="install.ico" />GitHub</a>.</li>
+            <li>Click the <a href="javascript:history.back()"><img src="globe.ico" />Back</a> button to try another link.</li>
+            <li>Ask a friendly <a href="https://chat.openai.com/" target="_blank"><img src="machine-person.ico" />fake brain</a> for help with generating some slop to fill in all the whitespace on this page.</li>
+        </ul>
+
+        HTTP 501 - Not Implemented
+        <div id="browser-name"></div>
+    </div>
+</body>
+<script>
+    document.getElementById('browser-name').textContent = navigator.userAgent;
+</script>
+<style>
+    #container {
+        max-width: 30em;
+    }
+
+    body {
+        padding-top: .5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 1em;
+    }
+
+    header {
+        display: flex;
+        margin-bottom: 1em;
+    }
+
+    h1 {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 1.4em;
+        display: inline-block;
+        margin: 0;
+        padding-left: .5em;
+    }
+
+    hr {
+        margin-top: 1.5em;
+        margin-bottom: 1.25em;
+        color: #ddd;
+    }
+
+    a {
+        color: red;
+    }
+
+    a img {
+        width: 1em;
+    }
+
+    header img {
+        width: 2.2em;
+    }
+
+    ul {
+        padding-bottom: 1em;
+    }
+</style>
+</html>
